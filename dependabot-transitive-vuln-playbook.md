@@ -13,8 +13,7 @@ pnpm info <socket.io-client@4.1.3> dependencies
 npm view socket.io-client versions
 
 ## 4. Check if the latest non-breaking version removes the vulnerable dependency
-npm ls <package-name>
-
+pnpm info socket.io-client@4.1.3 dependencies
 - **If fixed:**  
   pnpm add -D <package-name>  
   npm install
