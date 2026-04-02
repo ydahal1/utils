@@ -10,7 +10,7 @@ dependency vulnerability reported by Dependabot when using `pnpm`.
 Determine which package introduces the vulnerable dependency.
 
 ```bash
-pnpm why <vulnerable-package>
+npm why <vulnerable-package>
 ```
 
 ✅ Result: identifies the full dependency chain and the _root package_
