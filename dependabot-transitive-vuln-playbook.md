@@ -2,6 +2,9 @@
 
 This document describes the atomic steps to analyze and resolve a transitive
 dependency vulnerability reported by Dependabot when using `pnpm`.
+---
+## Step 0 : Check if Vulnerability exists
+pnpm audit
 
 ---
 
