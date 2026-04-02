@@ -5,7 +5,9 @@ npm audit
 
 ## 2. Find what depends on the vulnerable package
 npm why <package-name>  
-npm ls <package-name>
+
+## 2.1 Now look at the dependency tree 
+pnpm info <socket.io-client@4.1.3> dependencies
 
 ## 3. Check available versions of the parent package
 pnpm info <parent-package> version
