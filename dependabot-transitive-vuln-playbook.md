@@ -10,7 +10,7 @@ npm why <package-name>
 pnpm info <socket.io-client@4.1.3> dependencies
 
 ## 3. Check available versions of the parent package
-pnpm info <parent-package> version
+npm view socket.io-client versions
 
 ## 4. Check if the latest non-breaking version removes the vulnerable dependency
 npm ls <package-name>
